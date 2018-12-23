@@ -17,4 +17,5 @@
    - 本地训练模型的结果： ``` sh translate.sh ```
   
 ### 方案详细描述
+[AI Challenger_2018英中文本机器翻译_参赛小结](https://zhuanlan.zhihu.com/p/50153808)
 
