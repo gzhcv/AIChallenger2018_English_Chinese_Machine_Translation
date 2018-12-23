@@ -1,2 +1,20 @@
-# AIChallenger2018_English_Chinese_Machine_Translation
-TestB榜第10的方案，bleu32.1
+### 简介
+该方案利用了篇章上下文信息，论文见[Improving the Transformer Translation Model with Document-Level Context](https://arxiv.org/abs/1810.03581)，论文源码[Document-Transformer ](https://github.com/THUNLP-MT/Document-Transformer)。
+
+### 环境
+- 系统：ubuntu
+- 显卡：nvidia titan x (4卡)
+- 语言：python 2.7
+- 框架：tensorflow 1.10
+
+### 用法
+
+1. 下载处理过的数据和模型。数据只是做了分词和bpe，未做其它筛选。[网盘密码dr83](https://pan.baidu.com/s/1sfx9z5UypDD93I1Z_0V4mQ)
+2. 将网盘文件解压，切换到解压后的文件夹所在目录
+3. 训练：``` sh train.sh ```
+4. 测试：解码结果位置 ``` testB/output_testB.trans.norm ```
+   - 网盘中模型的结果: ``` sh translate_aic_submit.sh ```
+   - 本地训练模型的结果： ``` sh translate.sh ```
+  
+### 方案详细描述
+
