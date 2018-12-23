@@ -15,7 +15,9 @@
 4. 测试：解码结果位置 ``` testB/output_testB.trans.norm ```
    - 网盘中模型的结果: ``` sh translate_aic_submit.sh ```
    - 本地训练模型的结果： ``` sh translate.sh ```
-  
+
+ps: testB榜提交了两个结果，一个是单模型，另一个是用三个不同训练阶段的模型ensemble解码得到的，不知道是哪个32.1。
+
 ### 方案详细描述
 [AI Challenger_2018英中文本机器翻译_参赛小结](https://zhuanlan.zhihu.com/p/50153808)
 
