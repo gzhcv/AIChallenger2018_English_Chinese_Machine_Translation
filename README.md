@@ -1,0 +1,2 @@
+# AIChallenger2018_English_Chinese_Machine_Translation
+TestB榜第10的方案，bleu32.1
