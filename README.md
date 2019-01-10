@@ -8,7 +8,7 @@
 - 框架：tensorflow 1.10
 
 ### 用法
-
+0. 下载原始数据(如有需要)[AIChallenger_EnZh_MT_Data](https://pan.baidu.com/s/1teDqwd3Tbc7cbacpzPpa7A)  
 1. 下载处理过的数据和模型。数据只是做了分词和bpe，未做其它筛选。[网盘密码dr83](https://pan.baidu.com/s/1sfx9z5UypDD93I1Z_0V4mQ)
 2. 将网盘文件解压，切换到解压后的文件夹所在目录
 3. 训练：``` sh train.sh ```
